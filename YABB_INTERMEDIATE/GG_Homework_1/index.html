@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Music Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- h1 -->
+    <h1>Create Playlist</h1>
+    <!-- form -->
+    <form>
+      <label for="input-title">Title</label><br />
+      <input id="input-title" placeholder="Title" /><br />
+      <label for="input-description">Description</label><br />
+      <input id="input-description" placeholder="description" /><br />
+      <button id="btn-submit" type="button">Submit</button>
+    </form>
+
+    <div id="card">
+      <div id="card-image">
+        <div id="card-back-image"></div>
+        <!-- Image -->
+        <img
+          src="./assets/img/aimer.jpg"
+          alt="blackpink"
+          id="image"
+          width="250px"
+        />
+      </div>
+
+      <div id="card-description">
+        <!-- Artist -->
+        <h4 id="card-description-albums">Albums</h4>
+
+        <!-- Title -->
+        <h2 id="card-description-title">Title</h2>
+
+        <!-- Album -->
+        <h4 id="card-description-artist">Artist</h4>
+        <button id="card-description-button">Button</button>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/script.js"></script>
+</html>
