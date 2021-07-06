@@ -1,5 +1,3 @@
-console.log('app.js is active');
-
 // selection element
 let btnSubmit = document.getElementById('btn-submit');
 

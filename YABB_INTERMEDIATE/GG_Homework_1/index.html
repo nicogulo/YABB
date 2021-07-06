@@ -15,39 +15,30 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <!-- h1 -->
-    <h1>Create Playlist</h1>
-    <!-- form -->
+    <h1 style="text-align: center">Create Playlist</h1>
     <form>
-      <label for="input-title">Title</label><br />
-      <input id="input-title" placeholder="Title" /><br />
-      <label for="input-description">Description</label><br />
-      <input id="input-description" placeholder="description" /><br />
-      <button id="btn-submit" type="button">Submit</button>
+      <label for="input-title">Title</label>
+      <input class="input-title" placeholder="Title" />
+      <label for="input-description">Description</label>
+      <input class="input-description" placeholder="description" />
+      <button id="btn-submit" class="btn" type="button">Submit</button>
     </form>
 
-    <div id="card">
-      <div id="card-image">
-        <div id="card-back-image"></div>
-        <!-- Image -->
+    <div class="card">
+      <div class="card-image">
         <img
           src="./assets/img/aimer.jpg"
-          alt="blackpink"
-          id="image"
+          alt="Aimer Artist"
+          class="image"
           width="250px"
         />
       </div>
 
-      <div id="card-description">
-        <!-- Artist -->
-        <h4 id="card-description-albums">Albums</h4>
-
-        <!-- Title -->
-        <h2 id="card-description-title">Title</h2>
-
-        <!-- Album -->
-        <h4 id="card-description-artist">Artist</h4>
-        <button id="card-description-button">Button</button>
+      <div class="card-description">
+        <h4 class="card-description-albums">Albums</h4>
+        <h2 class="card-description-title">Title</h2>
+        <h4 class="card-description-artist">Artist</h4>
+        <button class="btn">Button</button>
       </div>
     </div>
   </body>
