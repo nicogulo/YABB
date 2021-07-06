@@ -30,3 +30,17 @@ let table = document.querySelector('table');
 let data = Object.keys(students[0]);
 createTableTh(table, data);
 createTable(table, students);
+
+const calcAvgAge = (students) => {
+  const total = students.reduce((acc, student) => acc + student.age, 0);
+  return total / students.length;
+};
+
+// callback function when button clicked
+const handleClick = () => {
+  const avg = calcAvgAge(students);
+  document.getElementById('avg').innerHTML = avg;
+};
+
+// add onclick listener
+document.getElementById('calcButton').addEventListener('click', handleClick);
