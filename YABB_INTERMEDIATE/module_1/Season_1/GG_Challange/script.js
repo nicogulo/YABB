@@ -44,3 +44,8 @@ const handleClick = () => {
 
 // add onclick listener
 document.getElementById('calcButton').addEventListener('click', handleClick);
+
+
+const wait = (time) => new Promise((resolve) => setTimeout(resolve, time))
+wait(5000).then(()=>{
+})
