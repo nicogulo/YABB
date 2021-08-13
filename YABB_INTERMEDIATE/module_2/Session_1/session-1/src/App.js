@@ -1,15 +1,7 @@
-import './App.css';
-import Search from './pages/Search';
+import './index.css';
+import Index from './pages/index.jsx';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <form action="">
-          <Search />
-        </form>
-      </header>
-    </div>
-  );
+  return <Index />;
 }
 
 export default App;
