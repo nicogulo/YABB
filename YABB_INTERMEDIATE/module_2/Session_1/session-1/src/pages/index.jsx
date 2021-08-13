@@ -32,7 +32,7 @@ const Index = () => {
     const response = await fetch(url).then((data) => data.json());
     return response;
   };
-
+  // return
   return (
     <div
       style={{
